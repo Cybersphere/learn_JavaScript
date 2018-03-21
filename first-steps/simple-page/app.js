@@ -1,9 +1,5 @@
-"use strict";
+'use strict';
 
-let question = prompt('«Каково «официальное» название JavaScript?».', '');
+let name = prompt ('Введите имя', 'имя');
 
-if (question == 'EcmaScript') {
-    console.log('Верно');
-} else {
-    console.log('Не знаете? EcmaScript');
-}
+alert(name);
